@@ -1,6 +1,144 @@
 import React, { Component } from "react";
 import Game from "./Game.js";
 
+const bracketData =[
+  {
+    "name":"Official",
+    "gameData":[
+      {
+        "game":"1",
+        "time":"6:00",
+        "teamSeed1":"12",
+        "teamSeed2":"13",
+        "team1":"La Salle",
+        "team2":"Massachusetts",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"2",
+        "time":"8:30",
+        "teamSeed1":"11",
+        "teamSeed2":"14",
+        "team1":"Ge. Washington",
+        "team2":"Fordam",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"3",
+        "time":"12:00",
+        "teamSeed1":"8",
+        "teamSeed2":"9",
+        "team1":"VCU",
+        "team2":"Dayton",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"4",
+        "time":"2:30",
+        "teamSeed1":"5",
+        "teamSeed2":"",
+        "team1":"George Mason",
+        "team2":"Game 1 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"5",
+        "time":"6:00",
+        "teamSeed1":"7",
+        "teamSeed2":"10",
+        "team1":"Richmond",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"6",
+        "time":"8:30",
+        "teamSeed1":"6",
+        "teamSeed2":"",
+        "team1":"Saint Louis",
+        "team2":"Game 2 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"7",
+        "time":"12:00",
+        "teamSeed1":"1",
+        "teamSeed2":"",
+        "team1":"Rhode Island",
+        "team2":"Game 3 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"8",
+        "time":"2:30",
+        "teamSeed1":"",
+        "teamSeed2":"4",
+        "team1":"Game 4 Winner",
+        "team2":"St. Joseph's",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"9",
+        "time":"6:00",
+        "teamSeed1":"2",
+        "teamSeed2":"",
+        "team1":"St. Bonaventure",
+        "team2":"Game 5 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"10",
+        "time":"8:30",
+        "teamSeed1":"",
+        "teamSeed2":"3",
+        "team1":"Game 6 Winner",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"11",
+        "time":"1:00",
+        "teamSeed1":"",
+        "teamSeed2":"",
+        "team1":"Game 7 Winner",
+        "team2":"Game 8 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"12",
+        "time":"3:30",
+        "teamSeed1":"",
+        "teamSeed2":"",
+        "team1":"Game 9 Winner",
+        "team2":"Game 10 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      },
+      {
+        "game":"13",
+        "time":"1:00",
+        "teamSeed1":"",
+        "teamSeed2":"",
+        "team1":"Game 11 Winner",
+        "team2":"Game 12 Winner",
+        "teamScore1":"",
+        "teamScore2":""
+      }
+    ]
+  }
+]
+
 class Bracket extends Component {
   constructor(props) {
     super(props);
