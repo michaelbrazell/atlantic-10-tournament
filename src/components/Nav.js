@@ -13,7 +13,7 @@ class Nav extends Component {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink exact to="/" className="nav-link" activeClassName="active">
-                  Home
+                  Brackets
                 </NavLink>
               </li>
               <li className="nav-item">
