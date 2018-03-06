@@ -10,7 +10,7 @@ class Nav extends Component {
             A10 Tournament Bracket
           </Link>
           <div className="collapse navbar-collapse">
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink exact to="/" className="nav-link" activeClassName="active">
                   Home

@@ -16,13 +16,13 @@ class Game extends Component {
   }
   render() {
     return (
-      <div class="card mb-3">
+      <div className={"game-" + this.state.gameNumber + " card mb-3"}>
         <div className="card-header">
-          <strong>Game {this.state.gameNumber}</strong> <span className="float-right">{this.state.time}</span>
+          <strong>Game {this.state.gameNumber}</strong> <span className="float-sm-right">{this.state.time}</span>
         </div>
-        <ul class="list-group list-group-flush">
-          <li className="list-group-item"><span class="badge badge-dark">{this.state.team1Seed}</span> {this.state.team1} <span className="float-right">{this.state.team1Score}</span></li>
-          <li className="list-group-item"><span class="badge badge-dark">{this.state.team2Seed}</span> {this.state.team2} <span className="float-right">{this.state.team2Score}</span></li>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item"><span className="badge badge-dark">{this.state.team1Seed}</span> {this.state.team1} <span className="float-right">{this.state.team1Score}</span></li>
+          <li className="list-group-item"><span className="badge badge-dark">{this.state.team2Seed}</span> {this.state.team2} <span className="float-right">{this.state.team2Score}</span></li>
         </ul>
       </div>
     );

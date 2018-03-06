@@ -1,1 +1,15 @@
-/* Basic */
+.bracket-group .game-1, .bracket-group .game-2 {
+  margin-top: 180px;
+}
+
+.bracket-group .game-11 {
+  margin-top: 90px;
+}
+
+.bracket-group .game-12 {
+  margin-top: 180px;
+}
+
+.bracket-group .game-13 {
+  margin-top: 250px;
+}
