@@ -67,7 +67,7 @@ const bracketData =
         "time":"8:30",
         "team1Seed":"6",
         "team2Seed":"",
-        "team1":"Saint Louis",
+        "team1":"St. Louis",
         "team2":"Game 2 Winner",
         "teamScore1":"",
         "teamScore2":"",
@@ -193,7 +193,7 @@ const bracketData =
         "game":4,
         "time":"2:30",
         "team1Seed":"5",
-        "team2Seed":"",
+        "team2Seed":"12",
         "team1":"George Mason",
         "team2":"La Salle",
         "teamScore1":"",
@@ -215,18 +215,18 @@ const bracketData =
         "game":6,
         "time":"8:30",
         "team1Seed":"6",
-        "team2Seed":"",
-        "team1":"Saint Louis",
+        "team2Seed":"11",
+        "team1":"St. Louis",
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Saint Louis"
+        "prediction":"St. Louis"
       },
       {
         "game":7,
         "time":"12:00",
         "team1Seed":"1",
-        "team2Seed":"",
+        "team2Seed":"8",
         "team1":"Rhode Island",
         "team2":"VCU",
         "teamScore1":"",
@@ -236,7 +236,7 @@ const bracketData =
       {
         "game":8,
         "time":"2:30",
-        "team1Seed":"",
+        "team1Seed":"5",
         "team2Seed":"4",
         "team1":"George Mason",
         "team2":"St. Joseph's",
@@ -248,7 +248,7 @@ const bracketData =
         "game":9,
         "time":"6:00",
         "team1Seed":"2",
-        "team2Seed":"",
+        "team2Seed":"10",
         "team1":"St. Bonaventure",
         "team2":"Duquesne",
         "teamScore1":"",
@@ -258,7 +258,7 @@ const bracketData =
       {
         "game":10,
         "time":"8:30",
-        "team1Seed":"",
+        "team1Seed":"6",
         "team2Seed":"3",
         "team1":"St. Louis",
         "team2":"Davidson",
@@ -269,8 +269,8 @@ const bracketData =
       {
         "game":11,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"4",
         "team1":"Rhode Island",
         "team2":"St. Josephs",
         "teamScore1":"",
@@ -280,8 +280,8 @@ const bracketData =
       {
         "game":12,
         "time":"3:30",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"2",
+        "team2Seed":"3",
         "team1":"St. Bonaventure",
         "team2":"Davidson",
         "teamScore1":"",
@@ -291,8 +291,8 @@ const bracketData =
       {
         "game":13,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"3",
         "team1":"Rhode Island",
         "team2":"Davidson",
         "teamScore1":"",
@@ -342,7 +342,7 @@ const bracketData =
         "game":4,
         "time":"2:30",
         "team1Seed":"5",
-        "team2Seed":"",
+        "team2Seed":"13",
         "team1":"George Mason",
         "team2":"Massachusetts",
         "teamScore1":"",
@@ -364,18 +364,18 @@ const bracketData =
         "game":6,
         "time":"8:30",
         "team1Seed":"6",
-        "team2Seed":"",
-        "team1":"Saint Louis",
+        "team2Seed":"11",
+        "team1":"St. Louis",
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Saint Louis"
+        "prediction":"St. Louis"
       },
       {
         "game":7,
         "time":"12:00",
         "team1Seed":"1",
-        "team2Seed":"",
+        "team2Seed":"9",
         "team1":"Rhode Island",
         "team2":"Dayton",
         "teamScore1":"",
@@ -385,7 +385,7 @@ const bracketData =
       {
         "game":8,
         "time":"2:30",
-        "team1Seed":"",
+        "team1Seed":"13",
         "team2Seed":"4",
         "team1":"Massachusetts",
         "team2":"St. Joseph's",
@@ -397,7 +397,7 @@ const bracketData =
         "game":9,
         "time":"6:00",
         "team1Seed":"2",
-        "team2Seed":"",
+        "team2Seed":"10",
         "team1":"St. Bonaventure",
         "team2":"Duquesne",
         "teamScore1":"",
@@ -407,19 +407,19 @@ const bracketData =
       {
         "game":10,
         "time":"8:30",
-        "team1Seed":"",
+        "team1Seed":"6",
         "team2Seed":"3",
-        "team1":"Saint Louis",
+        "team1":"St. Louis",
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Saint Louis"
+        "prediction":"St. Louis"
       },
       {
         "game":11,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"4",
         "team1":"Rhode Island",
         "team2":"St. Joseph's",
         "teamScore1":"",
@@ -429,10 +429,10 @@ const bracketData =
       {
         "game":12,
         "time":"3:30",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"2",
+        "team2Seed":"6",
         "team1":"St. Bonaventure",
-        "team2":"Saint Louis",
+        "team2":"St. Louis",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Bonaventure"
@@ -440,8 +440,8 @@ const bracketData =
       {
         "game":13,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"2",
         "team1":"Rhode Island",
         "team2":"St. Bonaventure",
         "teamScore1":"",
@@ -491,7 +491,7 @@ const bracketData =
         "game":4,
         "time":"2:30",
         "team1Seed":"5",
-        "team2Seed":"",
+        "team2Seed":"12",
         "team1":"George Mason",
         "team2":"La Salle",
         "teamScore1":"",
@@ -513,18 +513,18 @@ const bracketData =
         "game":6,
         "time":"8:30",
         "team1Seed":"6",
-        "team2Seed":"",
-        "team1":"Saint Louis",
+        "team2Seed":"11",
+        "team1":"St. Louis",
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Saint Louis"
+        "prediction":"St. Louis"
       },
       {
         "game":7,
         "time":"12:00",
         "team1Seed":"1",
-        "team2Seed":"",
+        "team2Seed":"8",
         "team1":"Rhode Island",
         "team2":"VCU",
         "teamScore1":"",
@@ -534,7 +534,7 @@ const bracketData =
       {
         "game":8,
         "time":"2:30",
-        "team1Seed":"",
+        "team1Seed":"5",
         "team2Seed":"4",
         "team1":"George Mason",
         "team2":"St. Joseph's",
@@ -546,7 +546,7 @@ const bracketData =
         "game":9,
         "time":"6:00",
         "team1Seed":"2",
-        "team2Seed":"",
+        "team2Seed":"10",
         "team1":"St. Bonaventure",
         "team2":"Duquesne",
         "teamScore1":"",
@@ -556,9 +556,9 @@ const bracketData =
       {
         "game":10,
         "time":"8:30",
-        "team1Seed":"",
+        "team1Seed":"6",
         "team2Seed":"3",
-        "team1":"Saint Louis",
+        "team1":"St. Louis",
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
@@ -567,8 +567,8 @@ const bracketData =
       {
         "game":11,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"5",
         "team1":"Rhode Island",
         "team2":"George Mason",
         "teamScore1":"",
@@ -578,8 +578,8 @@ const bracketData =
       {
         "game":12,
         "time":"3:30",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"2",
+        "team2Seed":"3",
         "team1":"St. Bonaventure",
         "team2":"Davidson",
         "teamScore1":"",
@@ -589,8 +589,8 @@ const bracketData =
       {
         "game":13,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"2",
         "team1":"Rhode Island",
         "team2":"St. Bonaventure",
         "teamScore1":"",
@@ -640,7 +640,7 @@ const bracketData =
         "game":4,
         "time":"2:30",
         "team1Seed":"5",
-        "team2Seed":"",
+        "team2Seed":"13",
         "team1":"George Mason",
         "team2":"Massachusetts",
         "teamScore1":"",
@@ -662,18 +662,18 @@ const bracketData =
         "game":6,
         "time":"8:30",
         "team1Seed":"6",
-        "team2Seed":"",
-        "team1":"Saint Louis",
+        "team2Seed":"11",
+        "team1":"St. Louis",
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Saint Louis"
+        "prediction":"St. Louis"
       },
       {
         "game":7,
         "time":"12:00",
         "team1Seed":"1",
-        "team2Seed":"",
+        "team2Seed":"8",
         "team1":"Rhode Island",
         "team2":"VCU",
         "teamScore1":"",
@@ -683,7 +683,7 @@ const bracketData =
       {
         "game":8,
         "time":"2:30",
-        "team1Seed":"",
+        "team1Seed":"5",
         "team2Seed":"4",
         "team1":"George Mason",
         "team2":"St. Joseph's",
@@ -695,7 +695,7 @@ const bracketData =
         "game":9,
         "time":"6:00",
         "team1Seed":"2",
-        "team2Seed":"",
+        "team2Seed":"7",
         "team1":"St. Bonaventure",
         "team2":"Richmond",
         "teamScore1":"",
@@ -705,9 +705,9 @@ const bracketData =
       {
         "game":10,
         "time":"8:30",
-        "team1Seed":"",
+        "team1Seed":"6",
         "team2Seed":"3",
-        "team1":"Saint Louis",
+        "team1":"St. Louis",
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
@@ -716,8 +716,8 @@ const bracketData =
       {
         "game":11,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"5",
         "team1":"Rhode Island",
         "team2":"George Mason",
         "teamScore1":"",
@@ -727,8 +727,8 @@ const bracketData =
       {
         "game":12,
         "time":"3:30",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"2",
+        "team2Seed":"3",
         "team1":"St. Bonaventure",
         "team2":"Davidson",
         "teamScore1":"",
@@ -738,8 +738,8 @@ const bracketData =
       {
         "game":13,
         "time":"1:00",
-        "team1Seed":"",
-        "team2Seed":"",
+        "team1Seed":"1",
+        "team2Seed":"2",
         "team1":"Rhode Island",
         "team2":"St. Bonaventure",
         "teamScore1":"",
@@ -761,11 +761,12 @@ function renderGame(bracketItem, gameNumber) {
             number={item.game} 
             time={item.time} 
             team1Seed={item.team1Seed} 
-            team1={item.team1} 
             team2Seed={item.team2Seed} 
+            team1={item.team1} 
             team2={item.team2} 
             team1Score={item.team1Score} 
-            team2Score={item.team2Score} 
+            team2Score={item.team2Score}
+            prediction={item.prediction}
           />
         )
       }
