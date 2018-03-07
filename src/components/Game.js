@@ -33,13 +33,21 @@ class Game extends Component {
       if (prediction === team1) {
         if (team1Seed > team2Seed) {
           return (
-            <span>U</span>
+            "badge badge-info"
+          )
+        } else {
+          return (
+            "badge badge-secondary"
           )
         } 
       } else {
        if (team2Seed > team1Seed) {
           return (
-            <span>U</span>
+            "badge badge-info"
+          )
+        } else {
+          return (
+            "badge badge-secondary"
           )
         }
       }
@@ -53,10 +61,10 @@ class Game extends Component {
         </div>
         <ul className="list-group list-group-flush">
           <li className={ this.state.prediction === this.state.team1 ? "list-group-item list-group-item-info" : "list-group-item" }>
-            <span className={"badge badge-secondary"}>{this.state.team1Seed}</span> {this.state.team1} { this.isBonus(this.state.prediction, this.state.team1, this.state.team2, this.state.team1Seed, this.state.team2Seed) }<span className="float-right">{this.state.team1Score}</span>
+            <span className={ this.isBonus(this.state.prediction, this.state.team1, this.state.team2, this.state.team1Seed, this.state.team2Seed) }>{this.state.team1Seed}</span> {this.state.team1} <span className="float-right">{this.state.team1Score}</span>
           </li>
           <li className={ this.state.prediction === this.state.team2 ? "list-group-item list-group-item-info" : "list-group-item" }>
-            <span className="badge badge-secondary">{this.state.team2Seed}</span> {this.state.team2} { this.isBonus(this.state.prediction, this.state.team1, this.state.team2, this.state.team1Seed, this.state.team2Seed) }<span className="float-right">{this.state.team2Score}</span>
+            <span className={ this.isBonus(this.state.prediction, this.state.team1, this.state.team2, this.state.team1Seed, this.state.team2Seed) }>{this.state.team2Seed}</span> {this.state.team2} <span className="float-right">{this.state.team2Score}</span>
           </li>
         </ul>
       </div>

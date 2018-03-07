@@ -2,6 +2,8 @@
   {
     "name":"Official",
     "winner":"Team Name",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -12,7 +14,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -23,7 +27,9 @@
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -34,7 +40,9 @@
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -45,7 +53,9 @@
         "team2":"Game 1 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -56,7 +66,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -67,7 +79,9 @@
         "team2":"Game 2 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -78,7 +92,9 @@
         "team2":"Game 3 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -89,7 +105,9 @@
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -100,7 +118,9 @@
         "team2":"Game 5 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -111,7 +131,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -122,7 +144,9 @@
         "team2":"Game 8 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -133,7 +157,9 @@
         "team2":"Game 10 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -144,13 +170,17 @@
         "team2":"Game 12 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"Mike",
     "winner":"Davidson",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -161,7 +191,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"La Salle"
+        "prediction":"La Salle",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -172,7 +204,9 @@
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -183,7 +217,9 @@
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"VCU"
+        "prediction":"VCU",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -194,7 +230,9 @@
         "team2":"La Salle",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -205,7 +243,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Duquesne"
+        "prediction":"Duquesne",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -216,7 +256,9 @@
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -227,7 +269,9 @@
         "team2":"VCU",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -238,7 +282,9 @@
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Joseph's"
+        "prediction":"St. Joseph's",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -249,7 +295,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -260,7 +308,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -271,7 +321,9 @@
         "team2":"St. Josephs",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -282,7 +334,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -293,13 +347,17 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"Chris",
     "winner":"Rhode Island",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -310,7 +368,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Massachusetts"
+        "prediction":"Massachusetts",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -321,7 +381,9 @@
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -332,7 +394,9 @@
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Dayton"
+        "prediction":"Dayton",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -343,7 +407,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Massachusetts"
+        "prediction":"Massachusetts",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -354,7 +420,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Duquesne"
+        "prediction":"Duquesne",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -365,7 +433,9 @@
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -376,7 +446,9 @@
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -387,7 +459,9 @@
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Joseph's"
+        "prediction":"St. Joseph's",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -398,7 +472,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -409,7 +485,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -420,7 +498,9 @@
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -431,7 +511,9 @@
         "team2":"St. Louis",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -442,13 +524,17 @@
         "team2":"St. Bonaventure",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"Kevin",
     "winner":"Rhode Island",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -459,7 +545,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"La Salle"
+        "prediction":"La Salle",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -470,7 +558,9 @@
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -481,7 +571,9 @@
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"VCU"
+        "prediction":"VCU",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -492,7 +584,9 @@
         "team2":"La Salle",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -503,7 +597,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Duquesne"
+        "prediction":"Duquesne",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -514,7 +610,9 @@
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -525,7 +623,9 @@
         "team2":"VCU",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -536,7 +636,9 @@
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -547,7 +649,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -558,7 +662,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -569,7 +675,9 @@
         "team2":"George Mason",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -580,7 +688,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -591,13 +701,17 @@
         "team2":"St. Bonaventure",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"John",
     "winner":"St. Bonaventure",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -608,7 +722,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Massachusetts"
+        "prediction":"Massachusetts",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -619,7 +735,9 @@
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -630,7 +748,9 @@
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"VCU"
+        "prediction":"VCU",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -641,7 +761,9 @@
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -652,7 +774,9 @@
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Richmond"
+        "prediction":"Richmond",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -663,7 +787,9 @@
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -674,7 +800,9 @@
         "team2":"VCU",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -685,7 +813,9 @@
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -696,7 +826,9 @@
         "team2":"Richmond",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -707,7 +839,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -718,7 +852,9 @@
         "team2":"George Mason",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -729,7 +865,9 @@
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -740,7 +878,9 @@
         "team2":"St. Bonaventure",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   }

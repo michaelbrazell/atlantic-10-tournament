@@ -6,6 +6,8 @@ const bracketData =
   {
     "name":"Official",
     "winner":"Team Name",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -16,7 +18,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -27,7 +31,9 @@ const bracketData =
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -38,7 +44,9 @@ const bracketData =
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -49,7 +57,9 @@ const bracketData =
         "team2":"Game 1 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -60,7 +70,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -71,7 +83,9 @@ const bracketData =
         "team2":"Game 2 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -82,7 +96,9 @@ const bracketData =
         "team2":"Game 3 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -93,7 +109,9 @@ const bracketData =
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -104,7 +122,9 @@ const bracketData =
         "team2":"Game 5 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -115,7 +135,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -126,7 +148,9 @@ const bracketData =
         "team2":"Game 8 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -137,7 +161,9 @@ const bracketData =
         "team2":"Game 10 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -148,13 +174,17 @@ const bracketData =
         "team2":"Game 12 Winner",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":""
+        "prediction":"",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"Mike",
     "winner":"Davidson",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -165,7 +195,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"La Salle"
+        "prediction":"La Salle",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -176,7 +208,9 @@ const bracketData =
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -187,7 +221,9 @@ const bracketData =
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"VCU"
+        "prediction":"VCU",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -198,7 +234,9 @@ const bracketData =
         "team2":"La Salle",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -209,7 +247,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Duquesne"
+        "prediction":"Duquesne",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -220,7 +260,9 @@ const bracketData =
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -231,7 +273,9 @@ const bracketData =
         "team2":"VCU",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -242,7 +286,9 @@ const bracketData =
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Joseph's"
+        "prediction":"St. Joseph's",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -253,7 +299,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -264,7 +312,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -275,7 +325,9 @@ const bracketData =
         "team2":"St. Josephs",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -286,7 +338,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -297,13 +351,17 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"Chris",
     "winner":"Rhode Island",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -314,7 +372,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Massachusetts"
+        "prediction":"Massachusetts",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -325,7 +385,9 @@ const bracketData =
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -336,7 +398,9 @@ const bracketData =
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Dayton"
+        "prediction":"Dayton",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -347,7 +411,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Massachusetts"
+        "prediction":"Massachusetts",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -358,7 +424,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Duquesne"
+        "prediction":"Duquesne",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -369,7 +437,9 @@ const bracketData =
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -380,7 +450,9 @@ const bracketData =
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -391,7 +463,9 @@ const bracketData =
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Joseph's"
+        "prediction":"St. Joseph's",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -402,7 +476,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -413,7 +489,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -424,7 +502,9 @@ const bracketData =
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -435,7 +515,9 @@ const bracketData =
         "team2":"St. Louis",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -446,13 +528,17 @@ const bracketData =
         "team2":"St. Bonaventure",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"Kevin",
     "winner":"Rhode Island",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -463,7 +549,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"La Salle"
+        "prediction":"La Salle",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -474,7 +562,9 @@ const bracketData =
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -485,7 +575,9 @@ const bracketData =
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"VCU"
+        "prediction":"VCU",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -496,7 +588,9 @@ const bracketData =
         "team2":"La Salle",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -507,7 +601,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Duquesne"
+        "prediction":"Duquesne",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -518,7 +614,9 @@ const bracketData =
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -529,7 +627,9 @@ const bracketData =
         "team2":"VCU",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -540,7 +640,9 @@ const bracketData =
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -551,7 +653,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -562,7 +666,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -573,7 +679,9 @@ const bracketData =
         "team2":"George Mason",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -584,7 +692,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -595,13 +705,17 @@ const bracketData =
         "team2":"St. Bonaventure",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   },
   {
     "name":"John",
     "winner":"St. Bonaventure",
+    "points":0,
+    "max-points":0,
     "gameData":[
       {
         "game":1,
@@ -612,7 +726,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Massachusetts"
+        "prediction":"Massachusetts",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":2,
@@ -623,7 +739,9 @@ const bracketData =
         "team2":"Fordam",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Ge. Washington"
+        "prediction":"Ge. Washington",
+        "actualWinner":"",
+        "baseValue":"2"
       },
       {
         "game":3,
@@ -634,7 +752,9 @@ const bracketData =
         "team2":"Dayton",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"VCU"
+        "prediction":"VCU",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":4,
@@ -645,7 +765,9 @@ const bracketData =
         "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":5,
@@ -656,7 +778,9 @@ const bracketData =
         "team2":"Duquesne",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Richmond"
+        "prediction":"Richmond",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":6,
@@ -667,7 +791,9 @@ const bracketData =
         "team2":"Ge. Washington",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Louis"
+        "prediction":"St. Louis",
+        "actualWinner":"",
+        "baseValue":"3"
       },
       {
         "game":7,
@@ -678,7 +804,9 @@ const bracketData =
         "team2":"VCU",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":8,
@@ -689,7 +817,9 @@ const bracketData =
         "team2":"St. Joseph's",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"George Mason"
+        "prediction":"George Mason",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":9,
@@ -700,7 +830,9 @@ const bracketData =
         "team2":"Richmond",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":10,
@@ -711,7 +843,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Davidson"
+        "prediction":"Davidson",
+        "actualWinner":"",
+        "baseValue":"5"
       },
       {
         "game":11,
@@ -722,7 +856,9 @@ const bracketData =
         "team2":"George Mason",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"Rhode Island"
+        "prediction":"Rhode Island",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":12,
@@ -733,7 +869,9 @@ const bracketData =
         "team2":"Davidson",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"8"
       },
       {
         "game":13,
@@ -744,7 +882,9 @@ const bracketData =
         "team2":"St. Bonaventure",
         "teamScore1":"",
         "teamScore2":"",
-        "prediction":"St. Bonaventure"
+        "prediction":"St. Bonaventure",
+        "actualWinner":"",
+        "baseValue":"13"
       }
     ]
   }
@@ -778,7 +918,7 @@ class Bracket extends Component {
         }
       })
     )
-  } 
+  }
   render() {
     return (
       <div>
@@ -791,6 +931,12 @@ class Bracket extends Component {
                 <hr />
                 { this.renderGame(bracket, 1) }
                 { this.renderGame(bracket, 2) }
+                <hr />
+                <div className="card game">
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item">Base Points: </li>
+                  </ul>
+                </div>
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 8 <span className="badge badge-secondary float-right">3</span></h4>
