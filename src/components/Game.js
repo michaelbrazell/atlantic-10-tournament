@@ -17,18 +17,33 @@ class Game extends Component {
     };
   }
   /*
-    The bonus calculator:
-    First, match if prediction === team1
-    IF so, match if team1Seed > team2Seed. If it is, bonus.
-    If it is not greater, no bonus
-    Else condition, see if team2seed > team1seed, if it is, bonus
+    Test Case:
+    Chris Bracket, Massachusetts Upsets Lasalle
+
+    Prediction: Massachusetts
+    Team1: Lasalle
+    Team2: MAssachusetts
+    team1Seed: 12
+    Team2Seed: 13
+
+    If prediction = team1, then is team 1 seed less than team 2 seed?  If so, 
   */
   isBonus(prediction, team1, team2, team1Seed, team2Seed) {
-     if (prediction === team1) {
-       console.log('Person Predicted Team 1')
-     } else {
-       console.log('Person PRedicted team 2')
-     }
+    if (prediction.length > 0) {
+      if (prediction === team1) {
+        if (team1Seed > team2Seed) {
+          return (
+            <span>U</span>
+          )
+        } 
+      } else {
+       if (team2Seed > team1Seed) {
+          return (
+            <span>U</span>
+          )
+        }
+      }
+    }
   }
   render() {
     return (
@@ -37,12 +52,11 @@ class Game extends Component {
           <strong>Game {this.state.gameNumber}</strong> <span className="float-sm-right">{this.state.time}</span>
         </div>
         <ul className="list-group list-group-flush">
-        { this.isBonus(this.state.prediction, this.state.team1) }
           <li className={ this.state.prediction === this.state.team1 ? "list-group-item list-group-item-info" : "list-group-item" }>
-            <span className="badge badge-secondary">{this.state.team1Seed}</span> {this.state.team1} <span className="float-right">{this.state.team1Score}</span>
+            <span className={"badge badge-secondary"}>{this.state.team1Seed}</span> {this.state.team1} { this.isBonus(this.state.prediction, this.state.team1, this.state.team2, this.state.team1Seed, this.state.team2Seed) }<span className="float-right">{this.state.team1Score}</span>
           </li>
           <li className={ this.state.prediction === this.state.team2 ? "list-group-item list-group-item-info" : "list-group-item" }>
-            <span className="badge badge-secondary">{this.state.team2Seed}</span> {this.state.team2} <span className="float-right">{this.state.team2Score}</span>
+            <span className="badge badge-secondary">{this.state.team2Seed}</span> {this.state.team2} { this.isBonus(this.state.prediction, this.state.team1, this.state.team2, this.state.team1Seed, this.state.team2Seed) }<span className="float-right">{this.state.team2Score}</span>
           </li>
         </ul>
       </div>
