@@ -750,30 +750,6 @@ const bracketData =
   }
 ]
 
-// This creates a warning because there is no else condition
-function renderGame(bracketItem, gameNumber) {
-  return (
-    bracketItem.gameData.map( (item, index) => {
-      if (item.game === gameNumber) {
-        return (
-          <Game 
-            key={index}
-            number={item.game} 
-            time={item.time} 
-            team1Seed={item.team1Seed} 
-            team2Seed={item.team2Seed} 
-            team1={item.team1} 
-            team2={item.team2} 
-            team1Score={item.team1Score} 
-            team2Score={item.team2Score}
-            prediction={item.prediction}
-          />
-        )
-      }
-    })
-  )
-} 
-
 class Bracket extends Component {
   constructor(props) {
     super(props);
@@ -781,6 +757,28 @@ class Bracket extends Component {
       bracketName: this.props.bracketName
     };
   }
+  renderGame(bracketItem, gameNumber) {
+    return (
+      bracketItem.gameData.map( (item, index) => {
+        if (item.game === gameNumber) {
+          return (
+            <Game 
+              key={index}
+              number={item.game} 
+              time={item.time} 
+              team1Seed={item.team1Seed} 
+              team2Seed={item.team2Seed} 
+              team1={item.team1} 
+              team2={item.team2} 
+              team1Score={item.team1Score} 
+              team2Score={item.team2Score}
+              prediction={item.prediction}
+            />
+          )
+        }
+      })
+    )
+  } 
   render() {
     return (
       <div>
@@ -791,35 +789,35 @@ class Bracket extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 7 <span className="badge badge-secondary float-right">2</span></h4>
                 <hr />
-                { renderGame(bracket, 1) }
-                { renderGame(bracket, 2) }
+                { this.renderGame(bracket, 1) }
+                { this.renderGame(bracket, 2) }
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 8 <span className="badge badge-secondary float-right">3</span></h4>
                 <hr />
-                { renderGame(bracket, 3) }
-                { renderGame(bracket, 4) }
-                { renderGame(bracket, 5) }
-                { renderGame(bracket, 6) }
+                { this.renderGame(bracket, 3) }
+                { this.renderGame(bracket, 4) }
+                { this.renderGame(bracket, 5) }
+                { this.renderGame(bracket, 6) }
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 9 <span className="badge badge-secondary float-right">5</span></h4>
                 <hr />
-                { renderGame(bracket, 7) }
-                { renderGame(bracket, 8) }
-                { renderGame(bracket, 9) }
-                { renderGame(bracket, 10) }
+                { this.renderGame(bracket, 7) }
+                { this.renderGame(bracket, 8) }
+                { this.renderGame(bracket, 9) }
+                { this.renderGame(bracket, 10) }
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 10 <span className="badge badge-secondary float-right">8</span></h4>
                 <hr />
-                { renderGame(bracket, 11) }
-                { renderGame(bracket, 12) }
+                { this.renderGame(bracket, 11) }
+                { this.renderGame(bracket, 12) }
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 11 <span className="badge badge-secondary float-right">13</span></h4>
                 <hr />
-                { renderGame(bracket, 13) }
+                { this.renderGame(bracket, 13) }
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>Bracket - {bracket.name}</h4>

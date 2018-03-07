@@ -16,6 +16,20 @@ class Game extends Component {
       prediction: this.props.prediction
     };
   }
+  /*
+    The bonus calculator:
+    First, match if prediction === team1
+    IF so, match if team1Seed > team2Seed. If it is, bonus.
+    If it is not greater, no bonus
+    Else condition, see if team2seed > team1seed, if it is, bonus
+  */
+  isBonus(prediction, team1, team2, team1Seed, team2Seed) {
+     if (prediction === team1) {
+       console.log('Person Predicted Team 1')
+     } else {
+       console.log('Person PRedicted team 2')
+     }
+  }
   render() {
     return (
       <div className={"game-" + this.state.gameNumber + " card mb-3"}>
@@ -23,8 +37,13 @@ class Game extends Component {
           <strong>Game {this.state.gameNumber}</strong> <span className="float-sm-right">{this.state.time}</span>
         </div>
         <ul className="list-group list-group-flush">
-          <li className={ this.state.prediction === this.state.team1 ? "list-group-item list-group-item-info" : "list-group-item" }><span className="badge badge-dark">{this.state.team1Seed}</span> {this.state.team1} <span className="float-right">{this.state.team1Score}</span></li>
-          <li className={ this.state.prediction === this.state.team2 ? "list-group-item list-group-item-info" : "list-group-item" }><span className="badge badge-dark">{this.state.team2Seed}</span> {this.state.team2} <span className="float-right">{this.state.team2Score}</span></li>
+        { this.isBonus(this.state.prediction, this.state.team1) }
+          <li className={ this.state.prediction === this.state.team1 ? "list-group-item list-group-item-info" : "list-group-item" }>
+            <span className="badge badge-secondary">{this.state.team1Seed}</span> {this.state.team1} <span className="float-right">{this.state.team1Score}</span>
+          </li>
+          <li className={ this.state.prediction === this.state.team2 ? "list-group-item list-group-item-info" : "list-group-item" }>
+            <span className="badge badge-secondary">{this.state.team2Seed}</span> {this.state.team2} <span className="float-right">{this.state.team2Score}</span>
+          </li>
         </ul>
       </div>
     );
