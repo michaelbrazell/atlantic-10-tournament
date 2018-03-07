@@ -11,10 +11,10 @@ class Brackets extends Component {
           </div>
           <div className="col-xs-12 col-sm-6">
             <div className="btn-group float-sm-right" role="group" aria-label="Basic example">
-              <button type="button" className="btn btn-secondary">Kevin</button>
-              <button type="button" className="btn btn-secondary">John</button>
-              <button type="button" className="btn btn-secondary">Chris</button>
-              <button type="button" className="btn btn-secondary">Mike</button>
+              <a href="#Mike" className="btn btn-secondary">Mike</a>
+              <a href="#Chris" className="btn btn-secondary">Chris</a>
+              <a href="#Kevin" className="btn btn-secondary">Kevin</a>
+              <a href="#John" className="btn btn-secondary">John</a>
             </div>
           </div>
         </div> 
