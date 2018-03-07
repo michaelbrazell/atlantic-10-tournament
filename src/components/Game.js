@@ -4,6 +4,7 @@ class Game extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      index: this.props.index,
       gameNumber: this.props.number,
       time: this.props.time,
       team1Seed: this.props.team1Seed,
