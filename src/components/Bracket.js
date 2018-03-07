@@ -5,6 +5,7 @@ const bracketData =
 [
   {
     "name":"Official",
+    "winner":"Team Name",
     "gameData":[
       {
         "game":1,
@@ -14,7 +15,8 @@ const bracketData =
         "team1":"La Salle",
         "team2":"Massachusetts",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":2,
@@ -24,7 +26,8 @@ const bracketData =
         "team1":"Ge. Washington",
         "team2":"Fordam",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":3,
@@ -34,7 +37,8 @@ const bracketData =
         "team1":"VCU",
         "team2":"Dayton",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":4,
@@ -44,7 +48,8 @@ const bracketData =
         "team1":"George Mason",
         "team2":"Game 1 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":5,
@@ -54,7 +59,8 @@ const bracketData =
         "team1":"Richmond",
         "team2":"Duquesne",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":6,
@@ -64,7 +70,8 @@ const bracketData =
         "team1":"Saint Louis",
         "team2":"Game 2 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":7,
@@ -74,7 +81,8 @@ const bracketData =
         "team1":"Rhode Island",
         "team2":"Game 3 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":8,
@@ -84,7 +92,8 @@ const bracketData =
         "team1":"Game 4 Winner",
         "team2":"St. Joseph's",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":9,
@@ -94,7 +103,8 @@ const bracketData =
         "team1":"St. Bonaventure",
         "team2":"Game 5 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":10,
@@ -104,7 +114,8 @@ const bracketData =
         "team1":"Game 6 Winner",
         "team2":"Davidson",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":11,
@@ -114,7 +125,8 @@ const bracketData =
         "team1":"Game 7 Winner",
         "team2":"Game 8 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":12,
@@ -124,7 +136,8 @@ const bracketData =
         "team1":"Game 9 Winner",
         "team2":"Game 10 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
       },
       {
         "game":13,
@@ -134,7 +147,455 @@ const bracketData =
         "team1":"Game 11 Winner",
         "team2":"Game 12 Winner",
         "teamScore1":"",
-        "teamScore2":""
+        "teamScore2":"",
+        "prediction":""
+      }
+    ]
+  },
+  {
+    "name":"Mike",
+    "winner":"Davidson",
+    "gameData":[
+      {
+        "game":1,
+        "time":"6:00",
+        "team1Seed":"12",
+        "team2Seed":"13",
+        "team1":"La Salle",
+        "team2":"Massachusetts",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":2,
+        "time":"8:30",
+        "team1Seed":"11",
+        "team2Seed":"14",
+        "team1":"Ge. Washington",
+        "team2":"Fordam",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":3,
+        "time":"12:00",
+        "team1Seed":"8",
+        "team2Seed":"9",
+        "team1":"VCU",
+        "team2":"Dayton",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":4,
+        "time":"2:30",
+        "team1Seed":"5",
+        "team2Seed":"",
+        "team1":"George Mason",
+        "team2":"La Salle",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":5,
+        "time":"6:00",
+        "team1Seed":"7",
+        "team2Seed":"10",
+        "team1":"Richmond",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":6,
+        "time":"8:30",
+        "team1Seed":"6",
+        "team2Seed":"",
+        "team1":"Saint Louis",
+        "team2":"Ge. Washington",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":7,
+        "time":"12:00",
+        "team1Seed":"1",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"VCU",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":8,
+        "time":"2:30",
+        "team1Seed":"",
+        "team2Seed":"4",
+        "team1":"George Mason",
+        "team2":"St. Joseph's",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":9,
+        "time":"6:00",
+        "team1Seed":"2",
+        "team2Seed":"",
+        "team1":"St. Bonaventure",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":10,
+        "time":"8:30",
+        "team1Seed":"",
+        "team2Seed":"3",
+        "team1":"St. Louis",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":11,
+        "time":"1:00",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"St. Josephs",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":12,
+        "time":"3:30",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"St. Bonaventure",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":""
+      },
+      {
+        "game":13,
+        "time":"1:00",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Davidson"
+      }
+    ]
+  },
+  {
+    "name":"Chris",
+    "winner":"Rhode Island",
+    "gameData":[
+      {
+        "game":1,
+        "time":"6:00",
+        "team1Seed":"12",
+        "team2Seed":"13",
+        "team1":"La Salle",
+        "team2":"Massachusetts",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Massachusetts"
+      },
+      {
+        "game":2,
+        "time":"8:30",
+        "team1Seed":"11",
+        "team2Seed":"14",
+        "team1":"Ge. Washington",
+        "team2":"Fordam",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Ge. Washington"
+      },
+      {
+        "game":3,
+        "time":"12:00",
+        "team1Seed":"8",
+        "team2Seed":"9",
+        "team1":"VCU",
+        "team2":"Dayton",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Dayton"
+      },
+      {
+        "game":4,
+        "time":"2:30",
+        "team1Seed":"5",
+        "team2Seed":"",
+        "team1":"George Mason",
+        "team2":"Massachusetts",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Massachusetts"
+      },
+      {
+        "game":5,
+        "time":"6:00",
+        "team1Seed":"7",
+        "team2Seed":"10",
+        "team1":"Richmond",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Duquesne"
+      },
+      {
+        "game":6,
+        "time":"8:30",
+        "team1Seed":"6",
+        "team2Seed":"",
+        "team1":"Saint Louis",
+        "team2":"Ge. Washington",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Saint Louis"
+      },
+      {
+        "game":7,
+        "time":"12:00",
+        "team1Seed":"1",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"Dayton",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Rhode Island"
+      },
+      {
+        "game":8,
+        "time":"2:30",
+        "team1Seed":"",
+        "team2Seed":"4",
+        "team1":"Massachusetts",
+        "team2":"St. Joseph's",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"St. Joseph's"
+      },
+      {
+        "game":9,
+        "time":"6:00",
+        "team1Seed":"2",
+        "team2Seed":"",
+        "team1":"St. Bonaventure",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"St. Bonaventure"
+      },
+      {
+        "game":10,
+        "time":"8:30",
+        "team1Seed":"",
+        "team2Seed":"3",
+        "team1":"Saint Louis",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Saint Louis"
+      },
+      {
+        "game":11,
+        "time":"1:00",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"St. Joseph's",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Rhode Island"
+      },
+      {
+        "game":12,
+        "time":"3:30",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"St. Bonaventure",
+        "team2":"Saint Louis",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"St. Bonaventure"
+      },
+      {
+        "game":13,
+        "time":"1:00",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"St. Bonaventure",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Rhode Island"
+      }
+    ]
+  },
+  {
+    "name":"Kevin",
+    "winner":"Rhode Island",
+    "gameData":[
+      {
+        "game":1,
+        "time":"6:00",
+        "team1Seed":"12",
+        "team2Seed":"13",
+        "team1":"La Salle",
+        "team2":"Massachusetts",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"La Salle"
+      },
+      {
+        "game":2,
+        "time":"8:30",
+        "team1Seed":"11",
+        "team2Seed":"14",
+        "team1":"Ge. Washington",
+        "team2":"Fordam",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Ge. Washington"
+      },
+      {
+        "game":3,
+        "time":"12:00",
+        "team1Seed":"8",
+        "team2Seed":"9",
+        "team1":"VCU",
+        "team2":"Dayton",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"VCU"
+      },
+      {
+        "game":4,
+        "time":"2:30",
+        "team1Seed":"5",
+        "team2Seed":"",
+        "team1":"George Mason",
+        "team2":"La Salle",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"George Mason"
+      },
+      {
+        "game":5,
+        "time":"6:00",
+        "team1Seed":"7",
+        "team2Seed":"10",
+        "team1":"Richmond",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Duquesne"
+      },
+      {
+        "game":6,
+        "time":"8:30",
+        "team1Seed":"6",
+        "team2Seed":"",
+        "team1":"Saint Louis",
+        "team2":"Ge. Washington",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Saint Louis"
+      },
+      {
+        "game":7,
+        "time":"12:00",
+        "team1Seed":"1",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"VCU",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Rhode Island"
+      },
+      {
+        "game":8,
+        "time":"2:30",
+        "team1Seed":"",
+        "team2Seed":"4",
+        "team1":"George Mason",
+        "team2":"St. Joseph's",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"George Mason"
+      },
+      {
+        "game":9,
+        "time":"6:00",
+        "team1Seed":"2",
+        "team2Seed":"",
+        "team1":"St. Bonaventure",
+        "team2":"Duquesne",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"St. Bonaventure"
+      },
+      {
+        "game":10,
+        "time":"8:30",
+        "team1Seed":"",
+        "team2Seed":"3",
+        "team1":"Saint Louis",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Davidson"
+      },
+      {
+        "game":11,
+        "time":"1:00",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"George Mason",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Rhode Island"
+      },
+      {
+        "game":12,
+        "time":"3:30",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"St. Bonaventure",
+        "team2":"Davidson",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"St. Bonaventure"
+      },
+      {
+        "game":13,
+        "time":"1:00",
+        "team1Seed":"",
+        "team2Seed":"",
+        "team1":"Rhode Island",
+        "team2":"St. Bonaventure",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"Rhode Island"
       }
     ]
   }
@@ -211,17 +672,18 @@ class Bracket extends Component {
                 { renderGame(bracket, 13) }
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>Bracket - {this.state.bracketName}</h4>
+                <h4>Bracket - {bracket.name}</h4>
                 <hr/>
                 <div className="card game-13">
                   <div className="card-header">Winner</div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Team Name</li>
+                    <li className="list-group-item">{bracket.winner}</li>
                     <li className="list-group-item">Points: </li>
                   </ul>
                 </div>
               </div>
             </div>
+            <hr />
           </div>
         ))}
       </div>
