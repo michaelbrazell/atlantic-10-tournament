@@ -39,6 +39,10 @@ class Game extends Component {
           )
         }
       }
+    } else {
+      return (
+        "badge badge-secondary"
+      )
     }
   }
   render() {
