@@ -914,6 +914,7 @@ class Bracket extends Component {
               team2Score={item.team2Score}
               prediction={item.prediction}
               actualWinner={item.actualWinner}
+              baseValue={item.baseValue}
             />
           )
         }
@@ -941,30 +942,34 @@ class Bracket extends Component {
   calculateMaxPoints(bracketItem) {
     return this.calculateBasePoints(bracketItem) + this.calculateBonusPoints(bracketItem)
   }
+  calculateBonus(bracketItem) {
+    return (
+      bracketItem.gameData.filter( (game, index) => {
+        if ( (game.actualWinner.length > 0) && ( (game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed) )  ) {
+          return game
+        }
+      }).reduce((prevVal, game) => {
+        return prevVal + Math.abs(game.team1Seed - game.team2Seed)
+      }, 0)
+    )
+  }
+  calculatePoints(bracketItem) {
+    return (
+      bracketItem.gameData.filter( (game, index) => {
+        if ( game.actualWinner === game.prediction ) {
+          return game
+        }
+      }).reduce((prevVal, game) => {
+        return prevVal + game.baseValue
+      }, this.calculateBonus(bracketItem))
+    )
+  }
   render() {
     return (
       <div>
         { bracketData.map( (bracket, index) => (
           <div key={index}>
-            <div className="row mb-3">
-              <div className="col-xs-12 col-sm-6">
-                <h3 className="display-4" id={bracket.name}>Bracket - {bracket.name}</h3>
-                <ul className="list-inline mb-0">
-                <li className="list-inline-item">
-                    Points: <span className="badge badge-secondary">Work in Progress</span>
-                  </li>
-                  <li className="list-inline-item">
-                    Max Base Points: <span className="badge badge-secondary">{ this.calculateBasePoints(bracket) }</span>
-                  </li>
-                  <li className="list-inline-item">
-                    Max Bonus Points: <span className="badge badge-secondary">{ this.calculateBonusPoints(bracket) }</span>
-                  </li>
-                  <li className="list-inline-item">
-                    Max Points: <span className="badge badge-secondary">{ this.calculateMaxPoints(bracket) }</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <h3 className="display-4 mb-3" id={bracket.name}><span className={ bracket.name === "Official" ? "d-none" : "badge badge-secondary"}>{ this.calculatePoints(bracket) }</span> Bracket - {bracket.name} </h3>                
             <div className="row bracket-group">
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 7 <span className="badge badge-secondary float-right">2</span></h4>
@@ -1002,7 +1007,18 @@ class Bracket extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>Bracket - {bracket.name}</h4>
                 <hr/>
-                <div className="card game-13">
+                <ul className={ bracket.name === "Official" ? "d-none" : "list-inline mb-0"}>
+                  <li className="list-inline-item">
+                    Max Base Points: <span className="badge badge-secondary">{ this.calculateBasePoints(bracket) }</span>
+                  </li>
+                  <li className="list-inline-item">
+                    Max Bonus Points: <span className="badge badge-secondary">{ this.calculateBonusPoints(bracket) }</span>
+                  </li>
+                  <li className="list-inline-item">
+                    Max Points: <span className="badge badge-secondary">{ this.calculateMaxPoints(bracket) }</span>
+                  </li>
+                </ul>
+                <div className="card game-winner">
                   <div className="card-header">Winner</div>
                   <ul className="list-group list-group-flush">
                     <li className="list-group-item">{bracket.winner}</li>

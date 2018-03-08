@@ -14,8 +14,12 @@
   margin-top: 250px;
 }
 
+.bracket-group .game-winner {
+  margin-top: 162px;
+}
+
 @media (max-width: 576px) {
-  .bracket-group .game-1, .bracket-group .game-2, .bracket-group .game-11, .bracket-group .game-12, .bracket-group .game-13  {
+  .bracket-group .game-1, .bracket-group .game-2, .bracket-group .game-11, .bracket-group .game-12, .bracket-group .game-13, .bracket-group .game-winner  {
     margin-top: 0;
   }
 }
