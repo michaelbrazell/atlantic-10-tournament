@@ -929,7 +929,7 @@ class Bracket extends Component {
   calculateBonusPoints(bracketItem) {
     return (
       bracketItem.gameData.filter( (game, index) => {
-        if (game.prediction === game.team1 && game.team1Seed > game.team2Seed || game.prediction === game.team2 && game.team2Seed > game.team1Seed) {
+        if ( (game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed) ) {
           return game
         }
       }).reduce((prevVal, game) => {
@@ -945,7 +945,22 @@ class Bracket extends Component {
       <div>
         { bracketData.map( (bracket, index) => (
           <div key={index}>
-            <h3 className="mb-3 display-4" id={bracket.name}>Bracket - {bracket.name}</h3>
+            <div className="row mb-3">
+              <div className="col-xs-12 col-sm-6">
+                <h3 className="display-4" id={bracket.name}>Bracket - {bracket.name}</h3>
+                <ul className="list-inline mb-0">
+                  <li className="list-inline-item">
+                    Max Base Points: <span className="badge badge-secondary">{ this.calculateBasePoints(bracket) }</span>
+                  </li>
+                  <li className="list-inline-item">
+                    Max Bonus Points: <span className="badge badge-secondary">{ this.calculateBonusPoints(bracket) }</span>
+                  </li>
+                  <li className="list-inline-item">
+                    Max Points: <span className="badge badge-secondary">{ this.calculateMaxPoints(bracket) }</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="row bracket-group">
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
                 <h4>March 7 <span className="badge badge-secondary float-right">2</span></h4>
@@ -987,14 +1002,8 @@ class Bracket extends Component {
                   <div className="card-header">Winner</div>
                   <ul className="list-group list-group-flush">
                     <li className="list-group-item">{bracket.winner}</li>
-                    <li className="list-group-item">Base Points: 
-                      { this.calculateBasePoints(bracket) } 
-                    </li>
-                    <li className="list-group-item">Bonus Points:
-                      { this.calculateBonusPoints(bracket) }
-                    </li>
-                    <li className="list-group-item">Max Points: 
-                      { this.calculateMaxPoints(bracket) }
+                    <li className="list-group-item">
+                      Points: 
                     </li>
                   </ul>
                 </div>

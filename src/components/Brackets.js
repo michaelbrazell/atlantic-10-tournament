@@ -20,7 +20,6 @@ class Brackets extends Component {
         </div> 
         <hr />
         <Bracket bracketName="Official" />
-        <hr />
       </div>
     );
   }
