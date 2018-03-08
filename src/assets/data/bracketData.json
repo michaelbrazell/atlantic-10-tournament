@@ -41,7 +41,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -50,11 +50,11 @@
         "team1Seed":5,
         "team2Seed":0,
         "team1":"George Mason",
-        "team2":"Game 1 Winner",
+        "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -218,7 +218,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"VCU",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -231,7 +231,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -395,7 +395,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Dayton",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -408,7 +408,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Massachusetts",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -572,7 +572,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"VCU",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -585,7 +585,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -749,7 +749,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"VCU",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -762,7 +762,7 @@
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {

@@ -45,7 +45,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -54,11 +54,11 @@ const bracketData =
         "team1Seed":5,
         "team2Seed":0,
         "team1":"George Mason",
-        "team2":"Game 1 Winner",
+        "team2":"Massachusetts",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -222,7 +222,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"VCU",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -235,7 +235,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -399,7 +399,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Dayton",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -412,7 +412,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Massachusetts",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -576,7 +576,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"VCU",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -589,7 +589,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -753,7 +753,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"VCU",
-        "actualWinner":"",
+        "actualWinner":"VCU",
         "baseValue":3
       },
       {
@@ -766,7 +766,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"George Mason",
         "baseValue":3
       },
       {
@@ -945,8 +945,10 @@ class Bracket extends Component {
   calculateBonus(bracketItem) {
     return (
       bracketItem.gameData.filter( (game, index) => {
-        if ( (game.actualWinner.length > 0) && ( (game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed) )  ) {
-          return game
+        if ( game.actualWinner === game.prediction ) {
+          if ( (game.actualWinner.length > 0) && ( (game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed) )  ) {
+            return game
+          }
         }
       }).reduce((prevVal, game) => {
         return prevVal + Math.abs(game.team1Seed - game.team2Seed)
