@@ -13,7 +13,8 @@ class Game extends Component {
       team2: this.props.team2,
       team1Score: this.props.team1Score,
       team2Score: this.props.team2Score,
-      prediction: this.props.prediction
+      prediction: this.props.prediction,
+      actualWinner: this.props.actualWinner
     };
   }
   isBonus(prediction, team1, team2, team1Seed, team2Seed) {
@@ -45,10 +46,13 @@ class Game extends Component {
       )
     }
   }
+  isCorrect(prediction, actualWinner) {
+    
+  }
   render() {
     return (
       <div className={"game-" + this.state.gameNumber + " card mb-3"}>
-        <div className="card-header">
+        <div className={ this.state.prediction === this.state.actualWinner ? "card-header border-success" : "card-header"}>
           <strong>Game {this.state.gameNumber}</strong> <span className="float-sm-right">{this.state.time}</span>
         </div>
         <ul className="list-group list-group-flush">

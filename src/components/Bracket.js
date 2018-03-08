@@ -19,7 +19,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"Massachusetts",
         "baseValue":2
       },
       {
@@ -196,7 +196,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"La Salle",
-        "actualWinner":"",
+        "actualWinner":"Massachusetts",
         "baseValue":2
       },
       {
@@ -373,7 +373,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Massachusetts",
-        "actualWinner":"",
+        "actualWinner":"Massachusetts",
         "baseValue":2
       },
       {
@@ -550,7 +550,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"La Salle",
-        "actualWinner":"",
+        "actualWinner":"Massachusetts",
         "baseValue":2
       },
       {
@@ -727,7 +727,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Massachusetts",
-        "actualWinner":"",
+        "actualWinner":"Massachusetts",
         "baseValue":2
       },
       {
@@ -913,6 +913,7 @@ class Bracket extends Component {
               team1Score={item.team1Score} 
               team2Score={item.team2Score}
               prediction={item.prediction}
+              actualWinner={item.actualWinner}
             />
           )
         }
@@ -949,6 +950,9 @@ class Bracket extends Component {
               <div className="col-xs-12 col-sm-6">
                 <h3 className="display-4" id={bracket.name}>Bracket - {bracket.name}</h3>
                 <ul className="list-inline mb-0">
+                <li className="list-inline-item">
+                    Points: <span className="badge badge-secondary">Work in Progress</span>
+                  </li>
                   <li className="list-inline-item">
                     Max Base Points: <span className="badge badge-secondary">{ this.calculateBasePoints(bracket) }</span>
                   </li>
