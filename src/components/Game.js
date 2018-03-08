@@ -16,18 +16,6 @@ class Game extends Component {
       prediction: this.props.prediction
     };
   }
-  /*
-    Test Case:
-    Chris Bracket, Massachusetts Upsets Lasalle
-
-    Prediction: Massachusetts
-    Team1: Lasalle
-    Team2: MAssachusetts
-    team1Seed: 12
-    Team2Seed: 13
-
-    If prediction = team1, then is team 1 seed less than team 2 seed?  If so, 
-  */
   isBonus(prediction, team1, team2, team1Seed, team2Seed) {
     if (prediction.length > 0) {
       if (prediction === team1) {
