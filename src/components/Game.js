@@ -46,13 +46,27 @@ class Game extends Component {
       )
     }
   }
-  isCorrect(prediction, actualWinner) {
-    
+  isCorrect(actualWinner, prediction) {
+    if (actualWinner.length > 0) {
+      if (actualWinner === prediction) {
+        return (
+          "card-header border-success"
+        )
+      } else {
+        return (
+          "card-header border-danger"
+        )
+      }
+    } else {
+      return (
+        "card-header"
+      )
+    }
   }
   render() {
     return (
       <div className={"game-" + this.state.gameNumber + " card mb-3"}>
-        <div className={ this.state.prediction === this.state.actualWinner ? "card-header border-success" : "card-header"}>
+        <div className={ this.isCorrect(this.state.actualWinner, this.state.prediction) }>
           <strong>Game {this.state.gameNumber}</strong> <span className="float-sm-right">{this.state.time}</span>
         </div>
         <ul className="list-group list-group-flush">
