@@ -32,7 +32,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"Ge. Washington",
         "baseValue":2
       },
       {
@@ -209,7 +209,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Ge. Washington",
-        "actualWinner":"",
+        "actualWinner":"Ge. Washington",
         "baseValue":2
       },
       {
@@ -386,7 +386,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Ge. Washington",
-        "actualWinner":"",
+        "actualWinner":"Ge. Washington",
         "baseValue":2
       },
       {
@@ -563,7 +563,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Ge. Washington",
-        "actualWinner":"",
+        "actualWinner":"Ge. Washington",
         "baseValue":2
       },
       {
@@ -740,7 +740,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Ge. Washington",
-        "actualWinner":"",
+        "actualWinner":"Ge. Washington",
         "baseValue":2
       },
       {
