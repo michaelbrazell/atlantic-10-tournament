@@ -84,7 +84,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"St. Louis",
         "baseValue":3
       },
       {
@@ -97,7 +97,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"Rhode Island",
         "baseValue":5
       },
       {
@@ -110,7 +110,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"St. Joseph's",
         "baseValue":5
       },
       {
@@ -261,7 +261,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Louis",
-        "actualWinner":"",
+        "actualWinner":"St. Louis",
         "baseValue":3
       },
       {
@@ -274,7 +274,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Rhode Island",
-        "actualWinner":"",
+        "actualWinner":"Rhode Island",
         "baseValue":5
       },
       {
@@ -287,7 +287,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Joseph's",
-        "actualWinner":"",
+        "actualWinner":"St. Joseph's",
         "baseValue":5
       },
       {
@@ -438,7 +438,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Louis",
-        "actualWinner":"",
+        "actualWinner":"St. Louis",
         "baseValue":3
       },
       {
@@ -451,7 +451,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Rhode Island",
-        "actualWinner":"",
+        "actualWinner":"Rhode Island",
         "baseValue":5
       },
       {
@@ -464,7 +464,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Joseph's",
-        "actualWinner":"",
+        "actualWinner":"St. Joseph's",
         "baseValue":5
       },
       {
@@ -615,7 +615,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Louis",
-        "actualWinner":"",
+        "actualWinner":"St. Louis",
         "baseValue":3
       },
       {
@@ -628,7 +628,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Rhode Island",
-        "actualWinner":"",
+        "actualWinner":"Rhode Island",
         "baseValue":5
       },
       {
@@ -641,7 +641,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"St. Joseph's",
         "baseValue":5
       },
       {
@@ -792,7 +792,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Louis",
-        "actualWinner":"",
+        "actualWinner":"St. Louis",
         "baseValue":3
       },
       {
@@ -805,7 +805,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Rhode Island",
-        "actualWinner":"",
+        "actualWinner":"Rhode Island",
         "baseValue":5
       },
       {
@@ -818,7 +818,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"George Mason",
-        "actualWinner":"",
+        "actualWinner":"St. Joseph's",
         "baseValue":5
       },
       {
