@@ -71,7 +71,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"Richmond",
         "baseValue":3
       },
       {
@@ -248,7 +248,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Duquesne",
-        "actualWinner":"",
+        "actualWinner":"Richmond",
         "baseValue":3
       },
       {
@@ -425,7 +425,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Duquesne",
-        "actualWinner":"",
+        "actualWinner":"Richmond",
         "baseValue":3
       },
       {
@@ -602,7 +602,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Duquesne",
-        "actualWinner":"",
+        "actualWinner":"Richmond",
         "baseValue":3
       },
       {
@@ -779,7 +779,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Richmond",
-        "actualWinner":"",
+        "actualWinner":"Richmond",
         "baseValue":3
       },
       {
