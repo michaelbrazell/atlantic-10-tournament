@@ -175,7 +175,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
-        "actualWinner":"",
+        "actualWinner":"Davidson",
         "baseValue":13
       }
     ]
@@ -352,7 +352,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Davidson",
-        "actualWinner":"",
+        "actualWinner":"Davidson",
         "baseValue":13
       }
     ]
@@ -529,7 +529,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Rhode Island",
-        "actualWinner":"",
+        "actualWinner":"Davidson",
         "baseValue":13
       }
     ]
@@ -706,7 +706,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"Rhode Island",
-        "actualWinner":"",
+        "actualWinner":"Davidson",
         "baseValue":13
       }
     ]
@@ -883,7 +883,7 @@ const bracketData =
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"St. Bonaventure",
-        "actualWinner":"",
+        "actualWinner":"Davidson",
         "baseValue":13
       }
     ]
